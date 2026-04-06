@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Cykruit - Cybersecurity Job Portal
 
-# Run and deploy your AI Studio app
+Cykruit is a high-end, cinematic cybersecurity job portal designed to connect top-tier security talent with verified employers. Built with a focus on performance, aesthetics, and user experience, Cykruit offers a premium platform for the cybersecurity industry.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/694fb478-ed1c-4d1c-9670-a065405174cf
+- **Cinematic UI/UX**: A dark-themed, luxury interface with custom typography and smooth transitions.
+- **Smooth Scrolling**: Integrated with **Lenis** for a silky-smooth browsing experience.
+- **Scroll-Driven Animations**: Powered by **GSAP** and **ScrollTrigger** for dynamic visual storytelling.
+- **Interactive Elements**:
+  - **Magnetic Buttons**: Buttons that subtly follow the cursor for a tactile feel.
+  - **Custom Cursor**: A sophisticated dual-element cursor with lerp delay.
+  - **Glitch Text**: High-tech glitch effects on key headlines.
+- **AI-Matched Roles**: Smart recommendations for job seekers based on their unique skillsets.
+- **Employer Portal**: A dedicated space for employers to post roles with robust form validation using **Zod**.
+- **Responsive Design**: Fully optimized for all screen sizes, from mobile to ultra-wide displays.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: 
+  - [Framer Motion](https://www.framer.com/motion/)
+  - [GSAP](https://greensock.com/gsap/)
+  - [Lenis](https://lenis.darkroom.engineering/)
+- **Form Handling**: [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
+## 📦 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/cykruit.git
+   cd cykruit
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 🎨 Design Philosophy
+
+Cykruit follows a "Cyber-Luxury" aesthetic. It avoids generic AI-generated looks by using:
+- **Intentional Typography**: Pairing **Syne** for headings with **DM Sans** for body text and **Space Mono** for technical accents.
+- **Deep Palette**: A rich `#020205` black base with vibrant `#00e5ff` cyan accents.
+- **Architectural Spacing**: Generous padding and fluid layouts to create a sense of scale and importance.
+
+## 📄 License
+
+This project is licensed under the MIT License.
